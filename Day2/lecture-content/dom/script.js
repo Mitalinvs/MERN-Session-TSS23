@@ -4,10 +4,9 @@
 // *3 querySelector()
 
 
-
-// const p = document.getElementsByTagName("p");
-// console.log(p);
-
+//By Tag name: If more than one tag return as array
+//  const p = document.getElementsByTagName("p");
+//  console.log(p);
 
 
 // * Different selectors 
@@ -15,8 +14,9 @@
 // const p = document.querySelector('*');
 
 // ! 2. type selector (element name)
-// const p = document.querySelector('h1');
-// console.log(p);
+//First occurence if many tags
+ const p = document.querySelector('p');
+ console.log(p);
 
 // ! 3. class selector
 // const p = document.querySelectorAll('.message');
@@ -33,55 +33,57 @@
 
 
 // Creating Element with JS
+/*{
+    *Create Element
+    *Add element to HTML 
+    *Attach element to document
+}*/
 
 {/* <div>
 <p>CreateElement example</p>
 </div> */}
 
 //  * create element
-
 // ? create a new element 'div'
-// let div = document.createElement('div');
+ let div = document.createElement('div');
 
 // ?adding an HTML snippet to the 'div'
-// div.innerHTML = '<p>CreateElement example</p>';
+ div.innerHTML = '<p>CreateElement example</p>';
 
 // // ?attach the div to the document, you use the appendChild() method:
-// document.body.appendChild(div);
-// console.log(div);
+ document.body.appendChild(div);
+//  console.log(div);
 
 // ? adding a id to div,
-// div.id="basic"
-// console.log(div);
+ div.id="basic"
+//  console.log(div);
 
 // ? adding a class to div,
-// div.class="createdClass"
-// console.log(div);
+ div.className="createdClass"
+ console.log(div);
 
 
 
 
 // Accessing the Text Content of an Element
 // ? innerHTML
-// let note = document.getElementById('note');
-// console.log(note.innerHTML);
+ let note = document.getElementById('note');
+ console.log(note.innerHTML);
 
 
 // ? innerText
 // let note = document.getElementById('note');
-// console.log(note.innerText);
+ console.log(note.innerText);
 
 
 
 //  ? textContent
 // let note = document.getElementById('note');
-// console.log(note.textContent);
+ console.log(note.textContent);
 
 
 // innerText takes the CSS style into account and returns only human-readable text.
 // Use innerHTML property of an element to get or set HTML contained within the element.
-
-
 
 
 // ! setting inline styles

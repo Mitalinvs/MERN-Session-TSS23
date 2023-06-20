@@ -4,16 +4,26 @@
 // console.log('BASIC JS');
 
 // ?variables
-var x = 45;
-console.log(x);
-let y = 34;
-y = 100;
-console.log(y);
+//var,val-Original
+//let, const-ES6
+// var x = 45;
+// console.log(x);
+// let y = 34;
+// y = 100;
+// console.log(y);
 
-// ?constant
-// const z = 56;
-// z = 666;
-// console.log(z);
+// ?constant: no reassignment
+//  const z = 56;
+// // z = 666;
+//  console.log(z);
+
+//Object
+//  let m= {
+//      name: 'John',
+//      skills: ["HTML","CSS"]
+//  }
+//  console.log(m);
+//  console.log(m.skills[1]);
 
 //! ==================================== DATA TYPES  ======================================
 
@@ -43,6 +53,9 @@ console.log(y);
 // * Less than or equal to (<=)
 // * Strict equal ( === ) -> check data type + value
 // * Strict Not equal ( !== )  -> check data type + value
+console.log(2=='2')
+console.log(2==='2')
+console.log('2'=='2')
 
 // let a = 10;
 // console.log(a > 56);
@@ -89,7 +102,7 @@ console.log(y);
 // ? SYNTAX ------------
 // if(condition){
 //     statement1
-// }else if{
+// }else if(condition){
 //    statement2
 // }else{
 //     statement3
